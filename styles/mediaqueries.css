@@ -1,0 +1,211 @@
+@media screen and (max-width:890px){
+    /* Navbar */
+    nav #humburger
+    {
+        display: block;
+    }
+    nav .left-menu,
+    nav .right-menu #all-microsoft
+    {
+        display: none;
+    }
+    nav .logo
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    nav #humburger
+    {
+        position: absolute;
+        top: 25px;
+        left: 2%;
+    }
+    nav .right-menu #search
+    {
+        position: absolute;
+        top: 25px;
+        left: -1%;
+    }
+    nav .right-menu #cart
+    {
+        position: absolute;
+        top: 25px;
+        right: 6%;
+    }
+    nav .right-menu #sign-in
+    {
+        position: absolute;
+        top: 25px;
+        right: 2%;
+    }
+    /* Header */
+    .header,
+    .header .header-image img
+    {
+        height: 50vh;
+    }
+    .header .header-text-box
+    {
+        width: 95%;
+        background: #ffff;
+        top: 95%;
+        left: 2.5%;
+        padding: 2%;
+        box-shadow: 0px 5px 1px 1px rgba(0, 0, 255, .2);
+    }
+    .header .header-text-box p
+    {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 25px;
+        margin: 3% 0;
+    }
+    /* Service Section */
+    .service
+    {
+        margin-top: 30%;
+        flex-wrap: wrap;
+    }
+    .service .service-content
+    {
+        width: 40%;
+        margin-bottom: 5%; 
+    }
+    /* Header 2 Section */
+
+    .header-2{
+        position: relative;
+        justify-content: center;
+    }
+    .header-2 img{
+        height: 300px;
+        width: 100%;
+    }
+    .header-2 .image-box{
+        padding-top: 0;
+    }
+    .header-2 .text-box{
+        position: absolute;
+        background: #ffff;
+        box-shadow: 0px 5px 1px 1px rgba(0, 0, 255, .2);
+        width: 100%;
+        bottom: -152px;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+    .header-2 .text-box h2{
+        font-size: 25px;
+        margin-bottom: 1%;
+    }
+    .header-2 .text-box button{
+        font-size: 16px;
+        padding: 2%;
+        margin-top: 1%;
+    }
+    /* Social Icon */
+    .social-icon{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .social-icon img{
+        height: 40px;
+    }
+    /* Footer */
+    .footer .footer-top{
+        justify-content: start;
+    }
+    .footer .footer-top .footer-links{
+        width: 23%;
+    }
+    .footer .footer-bottom{
+        justify-content: center;
+    }
+    .footer .footer-bottom a{
+        font-size: 10px;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:760px){
+    .header .header-text-box
+    {
+        width: 95%;
+    }
+    .header .header-text-box h3
+    {
+       font-size: 1.2rem;
+    }
+    .service
+    {
+        margin-top: 35%;
+    }
+    .header-2 img{
+        height: 270px;
+    }
+    .header-2 .text-box{
+        bottom: -120px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:500px)
+{
+    /* Navbar */
+    nav .right-menu #search{
+        left: 3%;
+    }
+    nav .right-menu #cart{
+        right: 10%;
+    }
+    /* Header */
+    .header,
+    .header .header-image img{
+        height: 35vh;
+    }
+    .header .header-text-box
+     {
+        top: 104.7%;
+        padding: 3% 2%;
+    }
+    /* Service Section */
+    .service
+    {
+        margin-top: 60%;
+    }
+    .service .service-content
+    {
+        width: 100%;
+        padding: 0 5%;
+    }
+    /* Header 2 Section */
+    .header-2 .text-box{
+        bottom: -140px;
+    }
+    .header-2 img{
+        height: 230px;
+    }
+    /* Footer */
+    .footer .footer-top .footer-links{
+        width: 80%;
+    }
+}
+@media screen and (max-width:420px){
+    .service
+    {
+        margin-top: 96%;
+    }
+    .header-2 .text-box{
+        bottom: -130px;
+    }
+}

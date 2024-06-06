@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    overflow: hodden;
+}
+/* Navbar Style */
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0 3%;
+    position: relative;
+}
+nav #humburger{
+    display: none;
+}
+nav .logo{
+    float: left;
+    margin-top: 25px;
+}
+nav .logo img{
+    width: 120px;
+    height: 25px;
+}
+nav .left-menu{
+    width: 400px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+nav .right-menu{
+    width: 300px;
+    float: right;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav .left-menu ul{
+    list-style: none;
+}
+nav .left-menu ul li,
+nav .right-menu li
+{
+    display: inline-block;
+    margin: 0 2%;
+    list-style: none;
+}
+#all-microsoft, #search, #cart, #sign-in
+{
+    margin-left: 7%;
+}
+nav .left-menu ul li a,
+nav .right-menu li a
+{
+    color: #000;
+    text-decoration: none;
+}
+nav .right-menu #all-microsoft
+{
+    width: 100px;
+}
+
+/* Header Section Style */
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 0 .5%;
+    position: relative;
+}
+.header .header-image img{
+    float: right;
+    height: 100vh;
+    width: 100%;
+}
+.header .header-text-box{
+    width: 32%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    padding-bottom: 5%;
+}
+.header .header-text-box h3{
+    font-size: 2rem;
+}
+.header .header-text-box p{
+    font-size: 1.1rem;
+    margin: 4% 0;
+}
+.header .header-text-box button{
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background: #0a6ac3;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Service Section Style */
+.service{
+    width: 100%;
+    margin: 3% 0;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.service .service-content{
+    width: 22%;
+}
+.service .service-content .image-box img{
+    width: 100%;
+}
+.service .service-content .text-box h3{
+    font-size: 23px;
+    margin: 5% 0;
+}
+.service .service-content .text-box p{
+    font-size: 17px;
+    margin: 5% 0;
+}
+.service .service-content .text-box a{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Social Icon Style */
+.social-icon{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-left: 30px;
+}
+/* Footer Section Style */
+.footer{
+    background: #f7f4f4;
+    width: 100%;
+    padding: 3% 3% 0 3%;
+}
+.footer .footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.footer .footer-top .footer-links{
+    margin-bottom: 10%;
+}
+.footer .footer-top a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    display: list-item;
+    list-style: none;
+    margin-top: 7%;
+}
+.footer p{
+    font-weight: bold;
+}
+.footer .footer-bottom{
+    display: flex;
+    justify-content: end;
+}
+.footer .footer-bottom a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+    margin-left: 3%;
+    padding: 1%;
+}
+/* Header 2 Style */
+.header-2{
+    width: 90%;
+    margin: 5%;
+    background: #eae4ea;
+    display: flex;
+    justify-content: space-between;
+}
+.header-2 img{
+    height: 400px;
+    width: 580px;
+}
+.header-2 .image-box{
+    padding-top: 4%;
+}
+.header-2 .text-box{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.header-2 .text-box h2{
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+.header-2 .text-box button{
+    font-size: 20px;
+    margin-top: 4%;
+    padding: 3%;
+    background: #0a6ac3;
+    outline: none;
+    border: none;
+}
